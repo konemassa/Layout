@@ -1,0 +1,506 @@
+$colorprincipale: #e5faf8;
+$color1: #00bfff;
+$color2: mirage;
+
+*{
+    box-sizing: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: xx-large;
+    color: #00b39b;
+}
+
+.container{
+    background: white;
+    width: 100%;
+    height: 100%;
+    
+}
+header{
+    background: white;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px; 
+    margin-right: 0px;
+    }
+
+    .entete{
+        background: white;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around; 
+        box-shadow: hsl(0, 1%, 76%);
+        
+    }
+
+    .entete_nav{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-items: center;
+        justify-content: space-around; 
+    }
+    .entete_nav_logo{
+        width: 300px;
+        height: 50px;
+        display: flex;
+    }
+
+    .entete_nav_logo img{
+        border-radius: 5px;
+        width: 200px;
+        height: 50px;
+        display: flex;
+    } 
+    .entete_nav_menu{
+        display: flex;
+        gap: 30px;
+        margin-right: 90px;
+    }
+
+    .entete_nav_menu a{
+        color: #ababab;
+    }
+
+
+.entete_nav_menu a:hover {
+    color: #00b39b;
+}
+    
+
+    .liste{
+        list-style: none;    
+    }
+
+    // .liste{
+    //     background: #dad9d9;    
+    // }
+
+    // .liste:hover{
+    //     background: #c6f7c9;   
+    // }
+
+    .liste.departments{
+
+        position: relative;
+        
+        
+        }
+
+    .liste.departments:hover{
+       
+        .listeflotante{
+            display: block; 
+            background: rgb(252, 252, 252);
+            width: 200px;
+            height: 160px;
+            position: absolute;
+            line-height: 30px;
+            padding-top: 10px;
+            box-shadow: #0f0f0f;
+           
+
+            li:hover{
+                background: gray;
+                
+            }
+            
+        }
+    
+    }
+    .listeflotante{
+            
+        display: none;
+    }
+    
+    li{
+        list-style: none;
+    }
+
+
+.section1{
+    
+    width: 80%;
+    height: 500px;
+    justify-content: center;
+    margin-left: 80px;
+    
+}
+    
+
+.section1logo{
+     width: 50px;
+    height: 50ps;
+    padding-top: 100px;
+    align-items: center;
+    margin-left: 50%;
+    margin-bottom: 80px;    
+    }
+
+
+.section1titre{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    }
+
+
+.section1text{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+    .section1text1{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        
+    }
+
+    .section1text2{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        flex-direction: row;
+    }
+    }
+
+
+
+.section2_services{
+    
+    width: 80%;
+    height: 100%;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.section2_services_patients{
+    width: 260px;
+    height: 300px;
+    background: rgb(9, 203, 174);
+    border-radius: 10px;
+    margin-left: 60px;
+    padding-top: 10px;
+    color: white;
+    
+}
+
+.section2_services_doctors{
+    width: 260px;
+    height: 300px;
+    background: rgb(8, 85, 139);
+    border-radius: 10px;
+    margin-left: 50px;
+    padding-top: 10px;
+    color: white;
+    
+}
+
+.section2_services_clinics{
+    width: 280px;
+    height: 300px;
+    background: #191970;
+    border-radius: 10px;
+    margin-left: 50px;
+    padding-top: 10px;
+    color: white;
+    
+}
+
+.section2_services_logo{
+     padding-bottom: 10px;
+     padding-top: 20px;
+    margin-left: 50px;
+    
+    }
+
+  .section2_services_logo img{
+    width: 100px;
+    height: 100px;
+  }  
+
+.section2_services_titre{
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: x-large;
+} 
+
+.section2_services_messages{
+    width: 250px;
+    height: 100px;
+    margin-left: 20px;
+    font-size: x-large;
+} 
+
+.section2_partenaire{
+    
+    width: 80%;
+    height: 250px;
+    display: flex;
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+.section2_text_partenaire{
+    
+    width: 250px;
+    height: 150px;
+    margin-left: 70px;
+    padding-top: 50px;
+    font-size: x-large;
+}
+
+.section2_partenaire1{
+    
+    width: 280px;
+    height: 150px;
+    margin-left: 60px;
+    padding-top: 50px;
+
+    img{
+        width: 7,5rem;
+    }
+}
+
+
+.section2_partenaire2{
+    
+    width: 280px;
+    height: 150px;
+    margin-left: 60px;
+    padding-top: 50px;
+    img{
+        width: 7,5rem;
+    }
+}
+
+
+
+.section3{
+    background: #e5faf8;
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+   display: flex;
+}
+
+.section3_text{
+    width: 400px;
+    height: 580px;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 18px;
+    padding-right: 20px;
+    
+}   
+.section3_bloc1{
+    width: 270px;
+    height: 520px; 
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+} 
+
+.section3_bloc2{
+    width: 270px;
+    height: 500px; 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+} 
+ 
+    
+.section3_text_logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: 90%;
+    
+}
+
+.section3_text_logo img{
+    width: 100%;
+    height: 80%;
+}
+
+.section3_bloc1_div1{
+    background: white;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.section3_bloc1_div2{
+    background: white;
+    width: 250px;
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.section3_bloc2_div1{
+    background: white;
+    width: 250px;
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 10px; 
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.section3_bloc2_div2{
+    background: white;
+    width: 250px;
+    height: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px; 
+    justify-content: center;
+}
+
+.section3_bloc1 img{
+    width: 20px;
+    height: 40px;
+}
+
+.section3_bloc2 img{
+    width: 25px;
+    height: auto;
+}
+
+.section4{
+    width: 80%;
+    height: 100%;
+    margin-left: 80px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+.section4_galerie1{
+    width: 98%;
+    height: 350px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-top: 50px;
+}
+
+.section4_galerie2{
+    width: 98%;
+    height: 350px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-top: 50px;
+}
+
+.section4_galerie3{
+    width: 98%;
+    height: 350px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-top: 50px;  
+}
+
+.section4_galerie4{
+    width: 98%;
+    height: 400px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.section4 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.ville{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+.OPENINGS{
+    background: #1662c6;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barre{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin-left: 5px;
+    justify-content: space-around;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.current{
+    background: #1662c6;
+    height: 30px;
+    width: 250px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.section5_bloc{
+    background: #ededed;
+    height: 50px;
+    padding-top: 20px;
+}
